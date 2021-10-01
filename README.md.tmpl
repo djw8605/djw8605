@@ -17,12 +17,12 @@ I program in many languages:
 </p>
 
 
-Latest [blog](https://derekweitzel.com) posts:
+Latest [blog](https://derekweitzel.com) posts
+----------------------------------------------
 
-|Posts|
-|-----|
-{% for post in posts -%}
-| [{{ post.title }}]({{ post.link }}) |
+<ul>
+{% for post in posts %}
+<li><a href="{{ post.link }}">{{ post.title }}</a><br/>{{ post.content[1].value }}</li>
 {% endfor %}
-
+</ul>
 

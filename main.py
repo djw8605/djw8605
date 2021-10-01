@@ -3,6 +3,9 @@ import feedparser
 
 def getBlogPosts():
     d = feedparser.parse('https://derekweitzel.com/feed.xml')
+    import pprint
+    pp = pprint.PrettyPrinter(indent=4)
+    pp.pprint(d)
     return d.entries[:5]
 
 def main():
@@ -12,6 +15,7 @@ def main():
     template = templateEnv.get_template(TEMPLATE_FILE)
 
     posts = getBlogPosts()
+
 
     outputText = template.render(posts=posts)
     with open("README.md", 'w') as readme:
