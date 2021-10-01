@@ -22,14 +22,9 @@ Latest [blog](https://derekweitzel.com) posts:
 |Posts|
 |-----|
 | [XRootD Client Manager](https://derekweitzel.com/2020/10/11/xrootd-client-manager/) |
-|---------|
 | [GRACC Transition Visualization](https://derekweitzel.com/2020/03/08/gracc-transition/) |
-|---------|
 | [LetsEncrypt for Multiple Hosts](https://derekweitzel.com/2019/10/11/letsencrypt-for-multiple-hosts/) |
-|---------|
 | [StashCache By The Numbers](https://derekweitzel.com/2018/09/26/stashcache-by-the-numbers/) |
-|---------|
 | [HTCondor Pull Mode](https://derekweitzel.com/2018/08/31/htcondor-pull-mode/) |
-|---------|
 
 
