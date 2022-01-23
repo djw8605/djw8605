@@ -22,6 +22,8 @@ Latest [blog](https://derekweitzel.com) posts
 
 <ul>
 
+<li><a href="https://derekweitzel.com/2022/01/22/improving-geoip/">Improving Data Federation’s GeoIP</a><br/>Optimizing data transfers requires tuning many parameters. High latency between the client and a server can decrease data transfer throughput. The Open Science Data Federation (OSDF) attempts to optimize the latency between a client and cache by using GeoIP to locate the nearest cache to the client. But, using GeoIP alone has many flaws. In this post, we utilize Cloudflare Workers to provide GeoIP information. During the evaluation, we found that location accuracy grew from 86% accurate with the original GeoIP service to 95% accurate with Cloudflare Workers.</li>
+
 <li><a href="https://derekweitzel.com/2020/10/11/xrootd-client-manager/">XRootD Client Manager</a><br/>The validation project for XRootD Monitoring is moving to phase 2, scale testing. Phase 1 focused on correctness of single server monitoring. The report is available.</li>
 
 <li><a href="https://derekweitzel.com/2020/03/08/gracc-transition/">GRACC Transition Visualization</a><br/>The OSG is in the progress of transitioning from an older ElasticSearch (ES) cluster to a new version. Part of this process is reindexing (copying) data from the old to the new. Unfortunately, it’s not easy to capture a status of this transition. For this, I have created the GRACC Transition page.</li>
@@ -29,7 +31,5 @@ Latest [blog](https://derekweitzel.com) posts
 <li><a href="https://derekweitzel.com/2019/10/11/letsencrypt-for-multiple-hosts/">LetsEncrypt for Multiple Hosts</a><br/>Using LetsEncrypt for certificate creation and management has made secure communications much easier. Instead of contacting the IT department of your university to request a certificate, you can skip the middle man and generate your own certificate which it trusted around the world.</li>
 
 <li><a href="https://derekweitzel.com/2018/09/26/stashcache-by-the-numbers/">StashCache By The Numbers</a><br/>The StashCache federation is comprised of 3 components: Origins, Caches, and Clients. There are additional components that increase the usability of StashCache which I will also mention in this post.</li>
-
-<li><a href="https://derekweitzel.com/2018/08/31/htcondor-pull-mode/">HTCondor Pull Mode</a><br/>For a recent project to utilize HPC clusters for HTC workflows, I had to add the ability to transfer the input and output sandboxes to and from HTCondor. HTCondor already has the ability to spool input files to a SchedD, and pull the output sandbox. These functions are intended to stage jobs to an HTCondor pool. But, HTCondor did not have the ability to pull jobs from an HTCondor pool.</li>
 
 </ul>
