@@ -16,6 +16,8 @@ I program in many languages:
 
 </p>
 
+![Derek's GitHub stats](https://github-readme-stats.vercel.app/api?username=djw8605&show_icons=true)
+
 
 Latest [blog](https://derekweitzel.com) posts
 ----------------------------------------------
