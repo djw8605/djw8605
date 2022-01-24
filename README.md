@@ -24,7 +24,7 @@ Latest [blog](https://derekweitzel.com) posts
 
 <ul>
 
-<li><a href="https://derekweitzel.com/2022/01/22/improving-geoip/">Improving Data Federation’s GeoIP</a><br/>Optimizing data transfers requires tuning many parameters. High latency between the client and a server can decrease data transfer throughput. The Open Science Data Federation (OSDF) attempts to optimize the latency between a client and cache by using GeoIP to locate the nearest cache to the client. But, using GeoIP alone has many flaws. In this post, we utilize Cloudflare Workers to provide GeoIP information. During the evaluation, we found that location accuracy grew from 86% accurate with the original GeoIP service to 95% accurate with Cloudflare Workers.</li>
+<li><a href="https://derekweitzel.com/2022/01/22/improving-geoip/">Improving the Open Science Data Federation’s Cache Selection</a><br/>Optimizing data transfers requires tuning many parameters. High latency between the client and a server can decrease data transfer throughput. The Open Science Data Federation (OSDF) attempts to optimize the latency between a client and cache by using GeoIP to locate the nearest cache to the client. But, using GeoIP alone has many flaws. In this post, we utilize Cloudflare Workers to provide GeoIP information during cache selection. During the evaluation, we found that location accuracy grew from 86% accurate with the original GeoIP service to 95% accurate with Cloudflare Workers.</li>
 
 <li><a href="https://derekweitzel.com/2020/10/11/xrootd-client-manager/">XRootD Client Manager</a><br/>The validation project for XRootD Monitoring is moving to phase 2, scale testing. Phase 1 focused on correctness of single server monitoring. The report is available.</li>
 
